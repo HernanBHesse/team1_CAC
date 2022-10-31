@@ -1,0 +1,46 @@
+.App-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: 10vh;
+  width: 100vw;
+  padding: 1vh 5vw;
+  background-color: #ffffff80;
+}
+
+a {
+  color: rgb(255, 255, 255);
+}
+
+.navBar-links {
+  flex-grow: 1;
+}
+
+.navBar-links li {
+  min-width: 20vw;
+}
+
+.navBar-links > ul {
+  display: flex;
+  gap: 2vw;
+}
+
+.navBar-links > ul > li {
+  padding: 0.5vh 0;
+  background-color: #6e6e6e;
+  border-radius: 0.1rem;
+}
+
+.subMenu {
+  display: none;
+  position: absolute;
+  padding-bottom: 0.6rem;
+  border-radius: 0 0 0.1rem 0.1rem;
+  background-color: #8b8b8b;
+}
+
+.App-header ul li:hover ul {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
