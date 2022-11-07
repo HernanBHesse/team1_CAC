@@ -1,0 +1,124 @@
+.mainRegister {
+    position: relative;
+    overflow-x: hidden;
+}
+
+.mainRegister__sectionRegister {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f1f1f1;
+}
+
+.mainRegister__sectionRegister__bgImgage {
+    position: absolute;
+    width: 100%;
+    background-image: url(https://socios.pedidosya.com.ar/resource/PedidosYaResource/PedidosYaResource/images/bg_landing-min.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+
+.mainRegister__sectionRegister__registerContainer {
+    position: relative;
+    max-width: 1100px;
+    margin: 0 auto;
+    color: #4a4a4a;
+    padding: 0 20px;
+}
+
+.mainRegister__sectionRegister__registerContainer__logo {
+    position: absolute;
+    top: 20px;
+    text-align: center;
+    width: 154px;
+    height: 50px;
+    background-color: #f52f41;
+}
+
+.mainRegister__sectionRegister__registerContainer__logo>img {
+    width: 122px;
+    margin-top: 12px;
+}
+
+
+.mainRegister__sectionRegister__registerContainer__row {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+    position: relative;
+}
+
+.mainRegister__sectionRegister__registerContainer__colText {
+    display: table;
+    height: 100vh;
+    flex-basis: 50%;
+    max-width: 50%;
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+}
+
+.mainRegister__sectionRegister__registerContainer__colForm {
+    padding: 27px 0px;
+    display: block;
+    height: 100%;
+    flex-basis: 50%;
+    max-width: 50%;
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    position: relative;
+}
+
+
+
+.mainRegister__sectionRegister__registerContainer__colText>span {
+    line-height: 1.1;
+    font-size: 36px;
+
+
+}
+
+.registerContainer__text__title {
+    padding-bottom: 15px;
+    font-size: 2.4rem;
+    color: #fff;
+    margin-top: 145px;
+    line-height: 1;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.brand_color {
+    background-color: yellow;
+    color: black;
+    padding: 0 4px;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.registerContainer__text__subTitle {
+    color: #fff;
+    line-height: 1.1;
+    font-size: 1.5rem;
+    font-weight: inherit;
+}
+
+.registerContainer__Form{
+    background-color:#fff;
+    padding-top:50px;
+}
+
+.mapForm{
+    height: 300px;
+    width: 100%;
+}

@@ -2,7 +2,7 @@
 import { Routes, Route } from "react-router-dom";
 
 //Paginas
-import { Home, Categories, Shops, PageNotFound } from "./pages";
+import { Home, Categories, Shops, PageNotFound, RegistroNegocios} from "./pages";
 
 //Componentes
 import { NavBar } from "./components";
@@ -13,7 +13,7 @@ import { NavBar } from "./components";
 import "./App.css";
 
 function App() {
-  const menus = ["Inicio", "Tiendas", "Categorías"];
+  const menus = ["Inicio", "Tiendas", "Categorías", "Registro Negocios"];
 
   return (
     <div className="App">
@@ -23,6 +23,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/categorias/:categorias" element={<Categories />} />
         <Route path="/tiendas/:tiendas" element={<Shops />} />
+        <Route path="/registro_negocios" element={<RegistroNegocios />} />
       </Routes>
     </div>
   );
