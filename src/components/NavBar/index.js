@@ -49,6 +49,11 @@ const NavBar = () => {
               })}
             </ul>
           </li>
+          <li>
+            <Link to={`/registro_negocios`} key={"registroNegocios"}>
+              Registra tu tienda
+            </Link>
+            </li>
         </ul>
       </nav>
     </div>
